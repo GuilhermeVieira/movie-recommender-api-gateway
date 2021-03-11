@@ -1,5 +1,5 @@
 # Movie Recommender API Gateway
----
-![image](https://user-images.githubusercontent.com/9259947/110784107-09e21600-8248-11eb-9a24-ce6f764b3855.png)
 
 Toy example of an API Gateway built with Spring Cloud Gateway.
+
+<p align="center"><img src="https://user-images.githubusercontent.com/9259947/110785922-4282ef00-824a-11eb-8813-5f604232f504.png" width="200"></p>
