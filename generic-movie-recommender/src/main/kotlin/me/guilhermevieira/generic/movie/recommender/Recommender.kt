@@ -13,7 +13,7 @@ class Recommender {
     @GetMapping
     fun findMoviesRecommendationsByUsername(@RequestParam username: String) =
         UserCountry.usernameToCountryMap[username]?.let { country ->
-            ResponseEntity.ok(RecommendedMovies.countryToMoviesMap[country]!!)
+            ResponseEntity.ok(RecommendedMovies.countryToMoviesMap.getValue(country))
         } ?: ResponseEntity.notFound().build()
 
 }
